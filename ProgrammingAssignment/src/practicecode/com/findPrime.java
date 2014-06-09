@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class findPrime {
 	public static void findPrimeNumber() {
 		System.out.println("Enter Number:");
-		Scanner s = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);// input from user
 		int number = s.nextInt();
 		for (int i = 2; i <= number / 2; i++) {
 			if (number % i == 0) {
