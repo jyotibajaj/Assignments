@@ -14,12 +14,11 @@ public class findPrime {
 			}
 		}
 
-		System.out.println("Number is prime.");
+		System.out.println("Number is prime!");
 	}
 
 	public static void main(String[] args) {
 		findPrimeNumber();
-
 	}
 
 }
