@@ -1,6 +1,7 @@
 package practicecode.com;
 
 public class SumofMultiples3_5 {
+	private static final String MSG = "Sum of multiples: ";
 
 	public static int multipleSum(int number) {
 		int sum = 0;
@@ -10,14 +11,15 @@ public class SumofMultiples3_5 {
 			}
 
 		}
-		System.out.println("Sum of multiples: " + sum);
+
 		return sum;
 
 	}
 
 	public static void main(String[] args) {
 
-		multipleSum(6);
+		int result = multipleSum(9);
+		System.out.println(MSG + result);
 
 	}
 

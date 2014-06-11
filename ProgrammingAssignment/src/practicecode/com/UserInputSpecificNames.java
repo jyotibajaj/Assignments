@@ -6,10 +6,6 @@ public class UserInputSpecificNames {
 
 	public String name;
 	
-//	public UserInputName(String name){
-//		UserName = name;
-//	}
-		
 		public static void main(String[] args) {
 			UserInputSpecificNames name1 = new UserInputSpecificNames(); 
 			Scanner s = new Scanner(System.in); // wait for the user input
